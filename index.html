@@ -11,7 +11,7 @@
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript">
 		$(function(){
-			$('.order1 > li a').click(function(){
+			$('.control > li a').click(function(){
 				$(this).parent().find('li').toggle();
 			});
 		});
@@ -128,39 +128,29 @@ setInterval(GetClock,1000);
 		<article id="bodyarticle">
 			<div id ="navdiv">
 				<ul>
-					<li><a id="ihome" style="cursor: pointer;">Home</a></li>
-					<li><a id="iabout" style="cursor: pointer;">About me</a></li>
-					<li><a id="ischool" style="cursor: pointer;">The School kid Phase</a></li>
-					<li><a id="icollege" style="cursor: pointer;">The College Student Phase</a></li>
-					<li><a id="iit" style="cursor: pointer;">The IT Professional Phase</a></li>
-					<li><a id="idream" style="cursor: pointer;">My Dreams</a></li>
-          <li><a id="ihelp" style="cursor: pointer;">How I can help</a></li>
-					<li><a id="iconnect" style="cursor: pointer;">Connect with me</a></li>
-					<li><a id="ifeedback" style="cursor: pointer;">Website Feedback</a></li>
+					<li><a id="ihome">Home</a></li>
+					<li><a id="iabout">About me</a></li>
+					<li><a id="ischool">The School kid Phase</a></li>
+					<li><a id="icollege">The College Student Phase</a></li>
+					<li><a id="iit">The IT Professional Phase</a></li>
+					<li><a id="idream">My Dreams</a></li>
+          				<li><a id="ihelp">How I can help</a></li>
+					<li><a id="iconnect">Connect with me</a></li>
+					<li><a id="ifeedback">Website Feedback</a></li>
 				</ul>
 			</div>
 			<div id="contentdiv">
 
 			</div>
 				<div id="advdiv">
-					<ol class="order1">
+					<ol class="control">
 					<li id="appl" style="margin: 10px 0;"><a>Relevant Links</a>
-							<ol id="control" style="margin: 10px 0;">
-								<li id="applitem1">
-									<a >Link 1</a>
-								</li>
-								<li id="applitem1">
-									<a >Link 2</a>
-								</li>
-								<li id="applitem1">
-									<a >Link 3</a>
-								</li>
-								<li id="applitem1">
-									<a >Link 4</a>
-								</li>
-								<li id="applitem1">
-									<a >Link 5</a>
-								</li>
+							<ol id="ilink" style="margin: 10px 0;">
+								<li id="item1"><a >Link #1</a></li>
+								<li id="item2"><a >Link #2</a></li>
+								<li id="item3"><a >Link #3</a></li>
+								<li id="item4"><a >Link #4</a></li>
+								<li id="item5"><a >Link #5</a></li>
 							</ol>
 					</ol>
 				</div>
